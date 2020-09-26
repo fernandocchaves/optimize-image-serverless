@@ -2,6 +2,9 @@ service: lincode-optimize-image-serverless
 
 frameworkVersion: "2"
 
+plugins:
+  - serverless-plugin-typescript
+
 custom:
   bucket: lincode-application-images
 
